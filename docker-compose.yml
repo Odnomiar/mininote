@@ -1,0 +1,9 @@
+version: "2.1"
+services:
+  mininote:
+    container_name: mininote
+    volumes:
+      - /srv/dev-disk-by-uuid-B8AAEC92AAEC4E86/Configurazioni/Mininote/data/:/app/data
+    ports:
+      - 8632:8632
+    restart: unless-stopped

@@ -1,6 +1,7 @@
 version: "2.1"
 services:
   mininote:
+  build: .
     container_name: mininote
     volumes:
       - /srv/dev-disk-by-uuid-B8AAEC92AAEC4E86/Configurazioni/Mininote/data/:/app/data

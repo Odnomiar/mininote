@@ -1,5 +1,5 @@
 module.exports = {
-    PORT: process.env.MININOTE_PORT ? parseInt(process.env.MININOTE_PORT) : 3000,
+    PORT: process.env.MININOTE_PORT ? parseInt(process.env.MININOTE_PORT) : 8632,
     DB_FILE: process.env.TEST ? 'data/testdb.json' : 'data/notebooks.json',
     DB_COLLECTION_MAIN: 'notebooks',
     DEBUG: false,
